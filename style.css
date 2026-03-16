@@ -106,3 +106,28 @@ p {
   color: white;
   font-size: 14px;
 }
+
+/* Animação do menu */
+nav ul li a {
+  position: relative;
+  text-decoration: none;
+  color: #333; /* Ajuste a cor do texto se necessário */
+  padding-bottom: 4px; /* Espaço para a linha não colar na letra */
+}
+
+/* Cria a linha base */
+nav ul li a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #668e7d;
+  transition: width 0.3s ease-in-out;
+}
+
+/* Faz a linha crescer no hover */
+nav ul li a:hover::after {
+  width: 100%;
+}

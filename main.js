@@ -6,6 +6,7 @@ async function loadComponents() {
       '/components/footer-contato.html',
     ),
     loadComponent('footer-placeholder', '/components/footer.html'),
+    loadComponent('whatsapp-placeholder', '/components/whatsapp.html'),
   ];
 
   // Agora ele vai esperar todas as tarefas que REALMENTE existem
