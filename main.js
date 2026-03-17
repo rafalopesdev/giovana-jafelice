@@ -1,12 +1,21 @@
 async function loadComponents() {
   const tasks = [
-    loadComponent('header-placeholder', 'components/header.html'),
+    loadComponent(
+      'header-placeholder',
+      '/giovana-jafelice/components/header.html',
+    ),
     loadComponent(
       'footer-contato-placeholder',
-      '../components/footer-contato.html',
+      '/giovana-jafelice/components/footer-contato.html',
     ),
-    loadComponent('footer-placeholder', '../components/footer.html'),
-    loadComponent('whatsapp-placeholder', '../components/whatsapp.html'),
+    loadComponent(
+      'footer-placeholder',
+      '/giovana-jafelice/components/footer.html',
+    ),
+    loadComponent(
+      'whatsapp-placeholder',
+      '/giovana-jafelice/components/whatsapp.html',
+    ),
   ];
 
   // Agora ele vai esperar todas as tarefas que REALMENTE existem
