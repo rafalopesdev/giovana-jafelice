@@ -18,10 +18,8 @@ body.loaded {
   opacity: 1;
 }
 .container {
-  max-width: 1280px;
-  height: 100%;
+  width: 1280px;
   margin: 0 auto;
-  padding: 15px;
 }
 .container-banner {
   width: 100%;
@@ -43,7 +41,7 @@ body.loaded {
 }
 .bg-contato {
   width: 100%;
-  min-height: 680px;
+  min-height: 700px;
   position: relative;
   display: flex;
   flex-direction: column;
