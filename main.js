@@ -1,6 +1,6 @@
 async function loadComponents() {
   const tasks = [
-    loadComponent('header-placeholder', '../components/header.html'),
+    loadComponent('header-placeholder', 'components/header.html'),
     loadComponent(
       'footer-contato-placeholder',
       '../components/footer-contato.html',
