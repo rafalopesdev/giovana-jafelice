@@ -21,6 +21,17 @@ body.loaded {
   width: 1280px;
   margin: 0 auto;
 }
+.container-nav {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 15px;
+}
+.container-section {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
 .container-banner {
   width: 100%;
   min-height: 440px;
@@ -123,9 +134,4 @@ nav ul li a::after {
   left: 0;
   background-color: #668e7d;
   transition: width 0.3s ease-in-out;
-}
-
-/* Faz a linha crescer no hover */
-nav ul li a:hover::after {
-  width: 100%;
 }
