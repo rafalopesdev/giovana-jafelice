@@ -5,7 +5,7 @@ function initMenu() {
   if (!menuBtn) return;
 
   menuBtn.addEventListener('click', () => {
-    mobileMenu.classList.toggle('hidden');
+    mobileMenu.classList.toggle('open');
   });
 }
 
