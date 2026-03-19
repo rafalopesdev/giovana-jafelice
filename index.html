@@ -6,15 +6,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Giovana Jafelice</title>
   <link rel="stylesheet" href="style.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {},
+        screens: {
+          sm: '640px',
+          md: '768px',
+          lg: '1200px',
+          xl: '1280px',
+        }
+      }
+    }
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-
 </head>
 
 <body>
   <div id="header-placeholder"></div>
   <main class="container-banner">
     <img src="images/banner.png" alt="Background">
-    <div class="container text-white">
+    <div class="container-section text-white">
       <p>Toda manifestação psíquica merece ser ouvida.</p>
       <p>O sofrimento psíquico não se reduz a sintomas ou eventos da vida, se constituindo na forma singular como cada sujeito se inscreve em sua história, em suas relações e no tempo em que vive. Minha prática clínica é orientada pela Psicanálise como ética, saber teórico e abordagem clínica.</p>
       <p>A experiência analítica se constrói a partir da palavra e da escuta. No espaço clínico, busca-se criar as condições para que aquilo que muitas vezes se apresenta como repetição, impasse ou sofrimento possa ser elaborado e transformado ao longo do processo e o sujeito possa se reposicionar. A Psicanálise se apresenta como ferramenta fundamental para leitura dos sujeitos e das situações clínicas, sustentando uma ética que privilegia a singularidade, o respeito às diferenças e a construção de novos modos de relação com a própria história e com os outros.</p>
@@ -24,7 +36,8 @@
   <div id="whatsapp-placeholder"></div>
   <div id="footer-contato-placeholder"></div>
   <div id="footer-placeholder"></div>
-  <script src="main.js"></script>
+  <script src="main.js" defer></script>
+  <script src="menu.js" defer></script>
 </body>
 
 </html>
