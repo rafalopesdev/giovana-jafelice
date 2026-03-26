@@ -1,0 +1,10 @@
+# Autoriza todos os robôs a rastrearem o site
+User-agent: *
+Allow: /
+
+# Bloqueia pastas que não precisam ser indexadas individualmente
+Disallow: /components/
+Disallow: /pdf/
+
+# Indica o caminho do seu mapa do site para acelerar a indexação
+Sitemap: https://giovanajafelice.com.br/sitemap.xml
